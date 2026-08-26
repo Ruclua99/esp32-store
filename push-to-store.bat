@@ -1,12 +1,10 @@
 @echo off
-chcp 65001 >nul
-title Đẩy Ứng Dụng Lên GitHub Store (Ruclua99/esp32-store)
+setlocal
+cd /d "%~dp0"
 echo ======================================================================
-echo    🚀 ĐANG TỰ ĐỘNG ĐẨY STORE MANIFEST & BINARY LÊN GITHUB STORE
+echo    Day ung dung len GitHub Store (Ruclua99/esp32-store)
 echo ======================================================================
 echo.
-
-cd /d "%~dp0"
 
 if not exist ".git" (
     git init
@@ -20,7 +18,7 @@ git push -u origin main
 
 echo.
 echo ======================================================================
-echo    ✅ ĐÃ ĐẨY LÊN GITHUB STORE THÀNH CÔNG!
+echo    DA DAY LEN GITHUB STORE THANH CONG!
 echo    URL Manifest: https://raw.githubusercontent.com/Ruclua99/esp32-store/main/store_manifest.json
 echo ======================================================================
 pause
