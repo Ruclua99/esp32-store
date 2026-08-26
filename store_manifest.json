@@ -1,0 +1,92 @@
+{
+  "store_name": "ESP32 Master App Store",
+  "store_version": "1.0.0",
+  "updated_at": "2026-08-26",
+  "description": "Kho ứng dụng nhúng chính thức cho ESP32. Cài đặt và nâng cấp firmware 1-click qua Wi-Fi mà không bị mất cấu hình mạng.",
+  "apps": [
+    {
+      "id": "app_wake_on_lan",
+      "name": "Bảng Điều Khiển Wake-on-LAN Pro",
+      "version": "1.0.0",
+      "port": 8801,
+      "icon": "⚡",
+      "category": "Tiện ích máy tính & Mạng",
+      "author": "HoangVT",
+      "description": "Gửi gói tin Magic Packet để bật máy tính từ xa qua mạng Wi-Fi LAN và hỗ trợ chân kích Relay/Optocoupler nguồn PC.",
+      "download_url": "https://raw.githubusercontent.com/Ruclua99/esp32-store/main/binaries/app_wake_on_lan_v1.0.0.bin",
+      "features": [
+        "WebAdmin độc lập chuyên dụng chạy trên cổng 8801",
+        "Gửi gói tin Magic Packet (WOL) tới cổng UDP 9 & 7",
+        "Lưu và quản lý danh sách nhiều máy tính trong NVS",
+        "Hỗ trợ kích chân Relay / Optocoupler vào nút nguồn PC",
+        "Tự động kết nối lại Wi-Fi cũ mà không mất mạng"
+      ]
+    },
+    {
+      "id": "esp32_configurator",
+      "name": "Bộ Quản Trị & Cấu Hình ESP32 Master",
+      "version": "1.0.0",
+      "port": 2405,
+      "icon": "⚙️",
+      "category": "Hệ thống & Cấu hình",
+      "author": "HoangVT",
+      "description": "Quản lý Wi-Fi đa mạng (Multi-WiFi), Bluetooth BLE, WebAdmin độc lập, Dual-IP, Giám sát RAM/ROM/CPU/Nhiệt độ và bảo mật tài khoản quản trị.",
+      "download_url": "https://raw.githubusercontent.com/Ruclua99/esp32-store/main/binaries/esp32_configurator_v1.0.0.bin",
+      "features": [
+        "Quản lý 5 mạng Wi-Fi dự phòng",
+        "WebAdmin nhúng độc lập cổng 2405",
+        "Bảo mật tài khoản quản trị Admin",
+        "Sao lưu & khôi phục cài đặt .json",
+        "Tích hợp Kho ứng dụng Cloud App Store"
+      ]
+    },
+    {
+      "id": "smart_relay_controller",
+      "name": "Điều Khiển Relay Thông Minh 4 Kênh",
+      "version": "1.1.0",
+      "port": 5000,
+      "icon": "💡",
+      "category": "Nhà thông minh (Smart Home)",
+      "author": "HoangVT",
+      "description": "Bật tắt và hẹn giờ 4 cổng thiết bị điện gia đình (đèn, quạt, máy bơm...) qua giao diện web trực quan cổng 5000.",
+      "download_url": "https://raw.githubusercontent.com/Ruclua99/esp32-store/main/binaries/smart_relay_v1.1.0.bin",
+      "features": [
+        "Giao diện điều khiển 4 công tắc độc lập cổng 5000",
+        "Tích hợp hẹn giờ tự động tắt/bật",
+        "Hỗ trợ REST API điều khiển từ xa"
+      ]
+    },
+    {
+      "id": "rgb_matrix_effects",
+      "name": "Trình Điều Khiển LED RGB Matrix & Hiệu Ứng",
+      "version": "2.0.0",
+      "port": 8080,
+      "icon": "🌈",
+      "category": "Chiếu sáng & Đồ họa",
+      "author": "HoangVT",
+      "description": "Hơn 50 hiệu ứng ánh sáng đổi màu cho dải LED WS2812B / Neopixel và ma trận LED RGB chạy theo nhạc trên cổng 8080.",
+      "download_url": "https://raw.githubusercontent.com/Ruclua99/esp32-store/main/binaries/rgb_matrix_v2.0.0.bin",
+      "features": [
+        "Bảng chọn 16 triệu màu sắc Color Picker",
+        "50+ hiệu ứng Rainbow, Fire, Strobe, Music Visualizer",
+        "Web giao diện điều khiển cổng 8080"
+      ]
+    },
+    {
+      "id": "sensor_hub_telemetry",
+      "name": "Trạm Thu Thập Cảm Biến Môi Trường",
+      "version": "1.0.5",
+      "port": 3000,
+      "icon": "🌡️",
+      "category": "Cảm biến & IoT",
+      "author": "HoangVT",
+      "description": "Đọc dữ liệu từ các cảm biến nhiệt độ, độ ẩm (DHT11/DHT22/BME280), vẽ biểu đồ theo dõi liên tục trên cổng 3000.",
+      "download_url": "https://raw.githubusercontent.com/Ruclua99/esp32-store/main/binaries/sensor_hub_v1.0.5.bin",
+      "features": [
+        "Biểu đồ đường thời gian thực (Live Chart)",
+        "Cảnh báo ngưỡng nhiệt độ cao",
+        "Xuất lịch sử dữ liệu ra file CSV"
+      ]
+    }
+  ]
+}
